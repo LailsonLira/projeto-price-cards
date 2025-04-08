@@ -1,0 +1,37 @@
+body {
+    background-color: #0c1014;
+    color: white;
+    width: 90%;
+    max-width: 960px;
+    margin: 0 auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+ .main-title {
+    font-size: 62px;
+    text-transform: uppercase;
+    text-align: center; 
+    margin: 45px 0;
+}
+
+.header {
+    display: flex;
+    background-color: #05080a;
+    margin: 16px;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-logo {
+    font-size: 36px;
+    text-transform: uppercase;
+    margin-left: 16px;
+}
+
+.header-nav ul {
+    display: flex;
+    list-style: none;
+    font-size: 18px;
+    gap: 16px;
+}
+.header-nav a {
+    color: white;
+}
